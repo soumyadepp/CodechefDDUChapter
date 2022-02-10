@@ -1,0 +1,48 @@
+.AboutFile {
+  height: 100vh;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.AboutFile .about-us {
+  padding: 3vmin;
+}
+.AboutFile .about-us .about-header {
+  margin-top: 15vmin;
+  font-size: 6vmin;
+  color: #4c911a;
+  padding: 1.5vmin;
+}
+.AboutFile .about-us .about-text {
+  padding: 3vmin;
+  font-size: 3vmin;
+  color: #4c911a;
+  text-align: left;
+}
+.AboutFile .about-us .form-div {
+  position: relative;
+}
+.AboutFile .about-us .form-div .input-here {
+  margin-left: -1vmin;
+  position: absolute;
+  top: 30%;
+  border: none;
+  font-size: 3vmin;
+  left: 9.5%;
+  outline: none;
+  color: #efefef;
+  width: 80%;
+}
+@media (max-width: 1366px) {
+  .AboutFile .about-us .form-div .input-here {
+    margin-left: 1vmin;
+  }
+}
+@media (max-width: 800px) {
+  .AboutFile .about-us .form-div .input-here {
+    left: 24%;
+    top: 29%;
+    font-size: 3vmin;
+  }
+}

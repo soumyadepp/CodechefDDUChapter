@@ -1,0 +1,31 @@
+.nav-l {
+    color: #4a911c;
+    padding: 2vmin;
+    font-size: 3.5vmin;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    color: #4a911c !important;
+    border: 1px solid #4a911c !important;
+}
+
+.dropdown-menu>.li-item:hover {
+    color: #efefef;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-l:hover {
+    text-decoration: none;
+    color: #efefef;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-primary {
+    border-color: #4a911c !important;
+    color: #efefef;
+}
+
+.btn-outline-primary:hover {
+    background-color: #4a911c !important;
+}

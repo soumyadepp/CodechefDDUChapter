@@ -1,0 +1,44 @@
+.AboutFile {
+    height: 100vh;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    .about-us {
+        padding: 3vmin;
+        .about-header {
+            margin-top: 15vmin;
+            font-size: 6vmin;
+            color: #4c911a;
+            padding: 1.5vmin;
+        }
+        .about-text {
+            padding: 3vmin;
+            font-size: 3vmin;
+            color: #4c911a;
+            text-align: left;
+        }
+        .form-div {
+            position: relative;
+            .input-here {
+                margin-left: -1vmin;
+                position: absolute;
+                top: 30%;
+                border: none;
+                font-size: 3vmin;
+                left: 9.5%;
+                outline: none;
+                color: #efefef;
+                width: 80%;
+                @media(max-width: 1366px) {
+                    margin-left: 1vmin;
+                }
+                @media(max-width: 800px) {
+                    left: 24%;
+                    top: 29%;
+                    font-size: 3vmin;
+                }
+            }
+        }
+    }
+}
